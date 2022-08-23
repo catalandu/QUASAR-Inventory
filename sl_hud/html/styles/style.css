@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --font: 'Rajdhani', sans-serif;
+}
+
+#xotic_hud {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(-152deg, rgba(255, 0, 0, 0.644) 0%, rgba(255,0,0,0) 10%);
+   
+}
+
+.name {
+    position: relative;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-shadow: -1px 0px 7px #33160E;
+    left: 1680px;
+}
+
+#align-self {
+    position: relative;
+}
+
+.money {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    top: -46px;
+    text-shadow: -1px 0px 7px #33160E;
+    left: 1790px;
+}
+
+.money2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    top: -30px;
+    left: 20px;
+    text-shadow: -1px 0px 7px #33160E;
+}
+
+#mic {
+    position: relative;
+    top: -80px;
+    left: 1790px;
+}
+
+#black_money {
+    color: rgb(250, 131, 131);
+}
+
+#mic2 {
+    position: relative;
+    top: -95px;
+    left: 1810px;
+    width: 80px;
+    height: 10px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    justify-content: left;
+    align-items: left;
+}
+
+#innerdiv {
+    width: 76px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 0.6px;
+    margin-left: 2px;
+   
+    background-color: red;
+    
+}
+
+
+.fa-credit-card {
+    color: red;
+    text-shadow: -0.3px 0px 5px #ff0303;
+    font-size: 14px;
+}
+
+.fa-money-bill-1 {
+    color: red;
+    text-shadow: -0.3px 0px 5px #ff0000;
+    font-size: 14px;
+}
+
+
+.fa-microphone {
+    text-shadow: -0.3px 0px 5px #33160E;
+}
+
+.fa-walkie-talkie {
+    text-shadow: -0.3px 0px 5px #33160E;
+}
+
+.coloredname {
+    color: red;
+    letter-spacing: 1px;
+}
+
+body {
+    overflow: hidden;
+}
